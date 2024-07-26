@@ -1,10 +1,31 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Video Streaming</title>
-</head>
-<body>
-    <h1>Video Streaming</h1>
-    <img src="{{ url_for('video_feed') }}">
-</body>
+<!-- <head>
+    <title>6ixSense VR Team Streaming System</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        h1 {
+            color: white;  /* Set the title text color to white */
+            margin-bottom: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head> -->
+<img src="{{ url_for('video_feed') }}" alt="Video Feed">
+<!-- <body>
+    <h1>6ixSense VR Team Streaming System</h1>
+    <img src="{{ url_for('video_feed') }}" alt="Video Feed">
+</body> -->
 </html>
